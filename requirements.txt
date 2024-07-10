@@ -2,3 +2,5 @@ discord.py
 matplotlib
 certifi
 aiohttp
+python-dotenv
+Flask

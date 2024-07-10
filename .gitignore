@@ -21,4 +21,5 @@ dharampal_data.json
 .DS_Store
 Thumbs.db
 
+venv/
 

@@ -360,6 +360,8 @@ async def help_command(interaction: discord.Interaction, command: str = None):
     await interaction.response.send_message(embed=embed)
 
 # Reminder system
+
+from discord.ext import tasks
 @tasks.loop(minutes=1)
 async def check_reminders():
     now = datetime.now()

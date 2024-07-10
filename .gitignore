@@ -1,0 +1,22 @@
+# Virtual environment
+dharampal_env/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Discord bot token file (if you decide to use one)
+token.txt
+
+# Data file
+dharampal_data.json
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
